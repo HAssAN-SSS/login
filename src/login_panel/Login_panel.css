@@ -1,0 +1,106 @@
+#login_panel{
+    width: 704px;
+    height: 504px;
+    background-color: rgb(29, 31, 32, 0.02);
+    margin-top: 240px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+#logo-login-panel{
+    /* Screenshot_2024-04-22_120916-removebg-preview 1 */
+
+    position: relative;
+    width: 170px;
+    height: 29px;
+    left: 32px;
+    top: 72px;
+
+    background: url(Screenshot_2024-04-22_120916-removebg-preview.png);
+    
+}
+
+#login_panel_title{
+    font-size: var(--h1);
+    font-family: Oxygen;
+    margin-left: 32px;
+    margin-top: 96px;
+    color: var(--black_15);
+    font-weight: 400;
+
+}
+
+.login_input{
+    align-self:center ;
+    width: 632px;
+    height: 48px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+    padding: 0;
+     /* Remove default appearance */
+     appearance: none; /* Standard syntax */
+     -webkit-appearance: none; /* Safari and Chrome */
+     -moz-appearance: none; /* Firefox */
+ 
+     /* Reset styles */
+     border: none;
+     outline: none;
+     padding: 0;
+     margin: 0;
+     background: none;
+     box-shadow: none;
+
+     font-size: var(--h5);
+     font-family: Roboto;
+     color: black;
+     border-radius: 4px;
+ 
+     /* Custom styles */
+     
+    
+}
+
+
+.input_line{
+    width: 632px;
+    background-color: black;
+    height: 2px;
+    align-self: center;
+    border: 0;
+}
+
+
+.ok_btn{
+    align-self: end;
+    background-color: #00A1DE;
+    width: 128px;
+    height: 40px;
+    margin-right: 96px;
+    margin-top: 126px;
+    font-size: var(--h5);
+    font-family: Roboto;
+    font-weight: 300;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.ok_btn:hover{
+    background-color: #0893c5;
+
+}
+
+.create_account_link{
+    color: #00A1DE;
+    font-size: var(--h5);
+    font-family: Roboto;
+    font-weight: 300;
+    margin-top: 32px;
+    margin-left: 32px;
+    cursor: pointer;
+
+}
+
+.create_account_link:hover{
+    color: #0893c5;
+}

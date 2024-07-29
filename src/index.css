@@ -1,0 +1,107 @@
+:root {
+
+
+
+  --black_100: #1D1F20;
+  --black_75: rgba(29, 31, 32, 0.75);
+  --black_50: rgba(29, 31, 32, 0.50);
+  --black_25: rgba(29, 31, 32, 0.25);
+  --black_15: rgba(29, 31, 32, 0.15);
+  --black_5: rgba(29, 31, 32, 0.05);
+
+  --white_100: #E0EAEE;
+  --white_75: rgba(224, 234, 238, 0.75);
+  --white_50: rgba(224, 234, 238, 0.50);
+  --white_25: rgba(224, 234, 238, 0.25);
+  --white_15: rgba(224, 234, 238, 0.15);
+  --white_5: rgba(224, 234, 238, 0.05);
+  --testColor: red;
+
+  --fusion_100: linear-gradient(45deg, #00A1DE, #6E267B);
+
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap'); */
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400; */
+
+  color-scheme: light dark;
+  /* background-color: #242424; */
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+
+  /* !backround color --------------------------------------------------------------------- */
+  background: linear-gradient(100deg, rgba(7,153,215,0.15) 50%, rgba(110,38,123,0.15) 100%);
+  background-color: white;
+
+  color:  black;
+  
+
+
+
+  /* ?---------------------variables -------------------------------*/
+
+  --black_100:#1D1F20;
+  --black_75: rgb(29, 31, 32, 75);
+  --black_50: rgb(29, 31, 32, 50);
+  --black_25: rgb(29, 31, 32, 25);
+  --black_15: rgb(29, 31, 32, 15);
+  --black_5: rgb(29, 31, 32, 5);
+
+  --white-100: #E0EAEE;
+  --white-75: rgb(224, 234, 238, 75);
+  --white-50: rgb(224, 234, 238, 50);
+  --white-25: rgb(224, 234, 238, 25);
+  --white-15: rgb(224, 234, 238, 15);
+  --white_5: rgb(224, 234, 238, 5);
+  --testColor: red;
+
+  --fusion_100: linear-gradient(45deg, #00A1DE, #6E267B);
+
+/* ! font stuf -------------------------------------------------------------------------- */
+
+--h1: 44.79px;
+--h5: 21.6px;
+--pp: 15px;
+
+
+
+}
+
+
+body {
+  margin: 0;
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
+  /* background-color: aqua; */
+  /* width: 100%; */
+  /* background-color: aquamarine;   */
+  min-width: 320px;
+  min-height: 100vh;
+  display: grid;
+  grid-area:  1fr/1fr 98% 1fr;
+  
+}
+#root{
+  margin: 0;
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background: linear-gradient(100deg, rgba(7,153,215,0.1) 50%, rgba(110,38,123,0.1) 100%);
+    background-color: white;
+
+    color: #213547;
+
+  }
+ 
+
+}
